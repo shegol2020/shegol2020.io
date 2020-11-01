@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>eShop</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Email form</title>
+     <script src="./script.js"></script> 
+   
 </head>
 <body>
-<header>
-    <button class="cart-button" type="button">Корзина</button>
-</header>
-<main>
-    <div class="goods-list"></div>
-    <div class="goods-basket"></div>
-</main>
-<script src="script.js"></script>
+<div class="container">
+<div id="emailContainer">
+ <div class="hiddenContainer">
+    <div class="contact100-form-title">
+Введите email</div>
+<input type="text" id="email" class="wrap-input100 validate-input">
+    <div class="container-contact100-form-btn">
+<input type="button"  class="contact100-form-btn" value="OK" id="btn" onclick="checkEmail()"></div>
+<div id="emailError" class="contact100-form-title"></div>
+    </div>
+    <div id="emailSuccess" class="contact100-form-title"></div>
+</div>
+</div>
+</div>
 </body>
 </html>
