@@ -1,0 +1,61 @@
+.container{
+            margin: 0 auto;
+        }
+        #emailContainer{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+        }
+           .hiddenContainer{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0 auto;
+        }
+        #emailSuccess{
+            display: flex;
+            flex-direction: column;
+        }
+        .wrap-input100 {
+            align-self: center;
+            width: 70%;
+            background-color: #fff;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+        }
+        .container-contact100-form-btn {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 43px;
+        }
+
+        .contact100-form-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            min-width: 40px;
+            height: 42px;
+            background-color: rgba(122,122,122);
+            border-radius: 21px;
+        }
+
+        .contact100-form-btn:hover {
+            background-color: #ffffff;
+            box-shadow: 0 10px 30px 0px  rgba(122,122,122,0.5);
+
+        }
+        .contact100-form-title {
+            padding-top: 10px;
+            align-self: center;
+            padding-bottom: 10px;
+        }
+        .imgLetter{
+align-self: center;
+        }
